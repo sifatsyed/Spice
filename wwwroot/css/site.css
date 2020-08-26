@@ -71,7 +71,9 @@ body {
 }
 
 .search-background {
-    background: url('/images/food-background-food-concept-with-various-tasty-fresh-ingredients-cooking-italian-food-ingredients-view-from-with-copy-space_1220-1491.jpg')
+    background: url('/images/indian-food.jpg') no-repeat center center fixed #000; 
+    background-size: cover;
+    opacity: 0.8;
 }
 
 .backgroundWhite{
@@ -89,7 +91,7 @@ body {
     border: 1px solid #ddd;
 }
 
-.backgroundWhitePadding {
+.backgroundWhite10Padding {
     background-color: white;
     padding: 10px;
     border-radius: 10px;
