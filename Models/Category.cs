@@ -13,6 +13,8 @@ namespace Spice.Models
         public int Id { get; set; }
 
         //Specifying that it is a required attribute
+        //Display for changing the name of anything that has a different name in model
+        [Display(Name = "Category Name")]
         [Required]
         public string Name { get; set; }
     }
